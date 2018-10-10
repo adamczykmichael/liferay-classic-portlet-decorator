@@ -1,10 +1,14 @@
 {
 	"name": "liferay-classic-portlet-decorator-themelet",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"main": "package.json",
 	"keywords": [
 		"liferay-theme liferay-themelet"
 	],
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/adamczykmichael/liferay-classic-portlet-decorator"
+	},
 	"liferayTheme": {
 		"screenshot": "",
 		"themelet": true,
