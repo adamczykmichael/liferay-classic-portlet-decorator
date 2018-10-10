@@ -1,0 +1,26 @@
+.control-menu .control-menu-icon.toggle-controls.visible-xs {
+    display: block !important;
+}
+.controls-visible {
+    .portlet-topper {
+        display: -webkit-box !important;
+        display: -moz-box !important;
+        display: box !important;
+        display: -webkit-flex !important;
+        display: -moz-flex !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        position: relative;
+        opacity: 1;
+        transform: none !important;
+    }
+    section.portlet {
+        border: 1px solid #f7f7f7;
+        box-shadow: 0 5px 20px -5px rgba(23,23,23,0.3);
+    }
+}
+.controls-hidden {
+    .portlet-topper {
+        display: none !important;
+    }
+}
