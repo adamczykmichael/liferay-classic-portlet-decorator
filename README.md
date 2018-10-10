@@ -1,5 +1,5 @@
 # Classic Portlet Decorator Themelet
-Brings back the old way of hiding and displaying what is now called the portlet decorators. With this themelet you will be able to get the functionality without touching your themes.
+Brings back the old way of hiding and displaying what is now called the portlet decorators. With this themelet you will be able to get the functionality without touching your themes. You will be extending your themes with the themelet.
 
 ## Compatibility:
 Liferay 7.0 and 7.1
