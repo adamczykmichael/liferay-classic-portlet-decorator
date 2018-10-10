@@ -1,5 +1,5 @@
 # Classic Portlet Decorator Themelet
-Brings back the old way of hiding and displaying what is now called the portlet decorators. With this themelet you will be able to get the functionality without touching your themes. You will be extending your themes with the themelet.
+Brings back the old way of hiding and displaying what is now called the portlet decorators. With this themelet you will be able to get the functionality by extending your themes.
 
 ## Compatibility:
 Liferay 7.0 and 7.1
@@ -13,6 +13,13 @@ Liferay 7.0 and 7.1
 
 Information/guide on how to install the Liferay Font-End ecosystem:
 https://dev.liferay.com/develop/tutorials/-/knowledge_base/7-1/creating-themes
+
+You also will need to add these lines just before the closing body tag in the theme's portal-normal.ftl:
+```
+<!-- inject:js -->
+<!-- endinject -->
+```
+Otherwise the themelet js will not be injected.
 
 ### npm module
 You can install the themelet from the npm registry using the Theme Generator.
