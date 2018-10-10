@@ -1,7 +1,7 @@
-.control-menu .control-menu-icon.toggle-controls.visible-xs {
+.control-menu .toggle-controls {
     display: block !important;
 }
-.controls-visible {
+.controls-visible.has-toggle-controls {
     .portlet-topper {
         display: -webkit-box !important;
         display: -moz-box !important;
